@@ -10,7 +10,7 @@ app.listen(PORT, handleListening);
 
 const handleHome = (req, res) => {
   console.log("/");
-  res.send("This is Homepage!");
+  res.send("This is Homepage! from now start!");
 };
 app.get("/", handleHome);
 
