@@ -4,8 +4,13 @@
   "description": "To remake Program that cloning Youtube from Nomad Coder's Junior Full Stack Course.",
   "keywords": [],
   "author": "Nareumae",
-  "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/node": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
     "express": "^4.16.4"
+  },
+  "scripts": {
+    "start": "babel-node index.js"
   }
 }
