@@ -1,0 +1,11 @@
+{
+  "name": "gitube",
+  "version": "1.0.0",
+  "description": "To remake Program that cloning Youtube from Nomad Coder's Junior Full Stack Course.",
+  "keywords": [],
+  "author": "Nareumae",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
