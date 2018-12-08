@@ -16,6 +16,6 @@ app.get("/", handleHome);
 
 const handleProfile = (req, res) => {
   console.log("/profile");
-  res.send("Here is Profile page,");
+  res.send("Here is Profile page, mayBe...");
 };
 app.get("/profile", handleProfile);
